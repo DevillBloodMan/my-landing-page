@@ -1,0 +1,37 @@
+.home{
+	background-image: url(../images/header.jpg);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+	color:#7EA1BE;
+	
+}
+
+.title{
+	margin: 0;
+	padding: 33vh 150px;
+	width: 665px;
+	height: 100%;
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: initial;
+	color:  #243644;
+}
+
+.home h1{
+	font-family: 'Crimson Text', serif;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.btn-outline-info{
+	margin-top: 15px;
+	color:  #243644;
+	border-color: #7EA1BE;
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}

@@ -1,0 +1,132 @@
+.header{
+	position: fixed;
+	top: 0;
+    right: 0;
+    left: 0;
+    z-index: 200;
+    background: rgb(255, 255, 255);
+    border-bottom: none;
+}
+
+.high{
+	position: relative;
+    height: 40px;
+    background-color: #243644;
+    z-index: 100;
+	text-transform: uppercase;
+	transition-duration: 200ms;
+	transition-property: height,background-color;
+}
+
+
+.high:hover{
+	position: relative;
+    height: 40px;
+    background-color: #32637E;
+    z-index: 100;
+    text-transform: uppercase;
+}
+
+.high p{
+	position: absolute;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
+	top: 50%; left: 50%; 
+  	transform: translate(-50%, -50%);
+}
+
+.mid{
+	position: relative;
+	height: 60px;
+	width: 100%;
+	z-index: 100;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+
+.midleft{
+	width: 58%;
+}
+
+.midright{
+	width: 42%;
+}
+
+.midleft div{
+	display: flex;
+	width: 20%;
+	color: #243644;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    float: left;
+    border: 1px solid #243644;
+    border-left-color: transparent;
+ 	justify-content: center;
+ 	align-items: center;
+ 	font-family: 'Karla', sans-serif;
+	font-size: .75rem;
+	font-weight: 700;
+}
+
+.midright div{
+	display: flex;
+	width: 100%;
+	color: #243644;
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    float: left;
+    border: 1px solid #243644;
+ 	justify-content: flex-end;
+ 	align-items: center;
+ 	padding-right: 70px;
+ 	font-family: 'Karla', sans-serif;
+	font-size: .80rem;
+	font-weight: 700;
+}
+
+.logo{
+	background-image: url(../images/logo.svg);
+	background-repeat: no-repeat;
+	background-size: 45%;
+	background-position: center;
+}
+
+.low{
+	display: flex;
+	position: relative;
+	color : #243644;
+	height: 30px;
+	padding: 0 35px;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	transition-duration: 200ms;
+	transition-property: height,background-color,color;
+	background-color: white;
+}
+
+.low a{
+	padding: 0 15px;
+	color : #243644;
+	text-decoration: none;
+	font-family: 'Karla', sans-serif;
+	font-size: .75rem;
+	font-weight: 700;
+}
+
+.low p{
+	top:-50%;
+	transform: translateY(45%);
+	font-family: 'Karla', sans-serif;
+	font-size: .75rem;
+	font-weight: 700;
+}

@@ -1,0 +1,56 @@
+.newsletter {
+	padding: 200px 35px;
+	background: #f2f2f2;
+}
+
+.newsletter .content {
+	max-width: 650px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2; 
+}
+
+.dash{
+	background: #E71613;
+    width: 48px;
+    height: 3px;
+    display: block;
+}
+
+.newsletter .content h2 {
+	margin: 15px; 
+	font-size: 28px;
+	font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: #696969;
+	color: black;	
+}
+
+.newsletter .content p {
+	margin-bottom: 25px;
+	font-size: 13px;
+	font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: #696969;
+}
+
+.newsletter .content .form-control {
+	height: 50px;
+	border-color: #ffffff;
+	border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+	box-shadow: none;
+	border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn {
+	min-height: 50px; 
+	border-radius:0;
+	background: #32637E;
+	color: #fff;
+	font-weight:600;
+	text-transform: uppercase;
+}

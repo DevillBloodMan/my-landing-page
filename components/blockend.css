@@ -1,0 +1,75 @@
+.blockend{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 500px;
+	margin-top: 140px;
+    color: white;
+}
+
+.blockleft{
+	background-image: url(https://cdn.elebase.io/dbcc75a2-4b9f-4a0e-8e4b-cfa273624e10/21aefc21-4395-4b86-b6c1-62883ad017dc-maine_bourgeois_promoblock.jpg?i=true&q=85&w=780);
+	background-size: cover;
+	width: 50%;
+	position: relative;
+}
+
+.content1{
+	display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.6);
+    padding: 70px 15px;
+}
+
+.blockright{
+	background-image: url(https://cdn.elebase.io/dbcc75a2-4b9f-4a0e-8e4b-cfa273624e10/db1f1d76-1ea0-4df2-b509-2d97591a9de1-maine_winterquarterly_800x450_promo.jpg?i=true&q=85&w=780);
+	background-size: cover;
+	width: 50%;
+	position: relative;
+}
+
+.content2{
+	display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,.6);
+    padding: 70px 15px;
+}
+
+.blockend h3{
+    font-size:22px;
+    margin-top: 40px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.blockend p{
+    font-size: 13px;
+    margin: 13px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+
+.button{
+	margin: 0 auto;
+	display: inline-block;
+    padding: 15px 65px;
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #dbdbe2;
+    line-height: 1;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
